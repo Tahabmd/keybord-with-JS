@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(26, 26, 26);
+    height: 100lvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 1100px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 25px;
+    background-color: rgb(22, 22, 22);
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.clicked {
+    color: yellow;
+    border: 2px solid yellow;
+}
