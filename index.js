@@ -1,7 +1,10 @@
 let box = document.querySelectorAll(".box");
 let b = document.querySelector(".box");
 let space = document.getElementById("space");
+let input = document.querySelector("input");
+
 window.addEventListener("keydown", (event) => {
+  input.focus();
   if (event.code == "Space") {
     space.classList.add("clicked");
   }
@@ -17,7 +20,4 @@ window.addEventListener("keyup", () => {
       item.classList.remove("clicked");
     }
   });
-});
-window.addEventListener("keydown", (event) => {
-  console.log(event.code);
 });
